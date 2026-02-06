@@ -1,13 +1,40 @@
-baseURL = 'https://red-tu.github.io/'
+baseURL = 'https://RedFocalors.github.io/'
 languageCode = 'zh-cn'
 title = 'RedTu 的技术博客'
 theme = "PaperMod"
 
+# 开启代码高亮
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
 [params]
     env = "production"
-    title = "RedTu Blog"
-    description = "编程学习笔记"
+    title = "RedTu 的小窝Ciallo～(∠・ω< )⌒★"
+    description = "个人成长记录，分享技术干货"
     author = "RedTu"
+    
+    # 界面设置
+    defaultTheme = "auto" # 自动切换暗黑/明亮模式
+    showFullTextContent = false
+    displayFullPostContent = false
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true # 开启代码一键复制
+    
+    # 主页配置
+    [params.homeInfoParams]
+        Title = "👋 欢迎来到我的博客"
+        Content = "专注于技术开发 | 探索爱好者 | 终身学习者"
+
+    # 社交链接
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/RedFocalors"
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:1137507521@qq.com"
 
 [menu]
     [[menu.main]]
@@ -15,3 +42,13 @@ theme = "PaperMod"
         name = "文章"
         url = "/posts/"
         weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "标签"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "archives"
+        name = "归档"
+        url = "/archives/"
+        weight = 30
