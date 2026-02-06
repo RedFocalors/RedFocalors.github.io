@@ -1,0 +1,17 @@
+baseURL = 'https://red-tu.github.io/'
+languageCode = 'zh-cn'
+title = 'RedTu 的技术博客'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "RedTu Blog"
+    description = "编程学习笔记"
+    author = "RedTu"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "文章"
+        url = "/posts/"
+        weight = 10
