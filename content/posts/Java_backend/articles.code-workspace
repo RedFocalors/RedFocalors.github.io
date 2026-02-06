@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../JAVA"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"com/DarlingandI/super",
+			"com/DarlingandI/pkg",
+			"com/DarlingandI/love",
+			""
+		],
+		"java.compile.nullAnalysis.mode": "disabled"
+	}
+}
